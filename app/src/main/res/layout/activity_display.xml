@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.week6day1mvvm.viewmodel.UserViewModel" />
+
+        <variable
+            name="user"
+            type="com.example.week6day1mvvm.model.User" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.activities.DisplayActivity">
+
+        <TextView
+            android:id="@+id/tvShowName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@{user.userName}"/>
+
+        <TextView
+            android:id="@+id/tvShowFavBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@{user.favBook}"/>
+
+        <TextView
+            android:id="@+id/tvShowFavMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@{user.favMovie}"/>
+
+    </LinearLayout>
+</layout>

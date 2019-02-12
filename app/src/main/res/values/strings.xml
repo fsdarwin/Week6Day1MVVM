@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Week6Day1MVVM</string>
+    <string name="submit_data">Submit Data</string>
+    <string name="enter_favorite_movie">Enter Favorite Movie</string>
+    <string name="enter_favorite_book">Enter Favorite Book</string>
+    <string name="enter_name">Enter Name</string>
+</resources>
